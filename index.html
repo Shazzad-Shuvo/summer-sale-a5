@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopaholic - Summer Sale</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-worksans {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+
+    
+
+    <!-- tailwind & daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind custom style/class -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sale-primary': '#E527B2',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <!-- banner section -->
+        <section class="bg-[#F9F6E2]">
+            <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center">
+
+                <!-- banner text -->
+                <div class="flex-1 text-center">
+                    <h4 class="md:text-2xl font font-medium mt-5">---SALE FEVER---</h4>
+                    <h2 class="text-3xl lg:text-5xl font-bold mt-4 lg:mt-7">
+                        Purchase TK 200 or
+                        <br>
+                        above & get <span class="text-sale-primary">20% off</span>
+                    </h2>
+                    <div class="mt-6 lg:mt-12">
+                        <p class="inline text-sm lg:text-2xl font-semibold mr-3">Use Promo Code</p>
+                        <button class="btn bg-sale-primary text-white text-sm lg:text-2xl font-medium">SELL200</button>
+                    </div>
+                </div>
+
+                <!-- banner image -->
+                <div class="flex-1">
+                    <img src="./images/Summer 1.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto">
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
